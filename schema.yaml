@@ -1,0 +1,19 @@
+$id: https://adr.iolanta.tech/schema/
+type: "object"
+properties:
+  id:
+    type: "string"
+    description: "The unique identifier for the ADR document"
+  title:
+    type: "string"
+    description: "The title of the ADR"
+  status:
+    type: "string"
+    description: "The status of the ADR"
+    enum: ["accepted", "pending", "rejected"]
+  author:
+    type: "string"
+    description: "The author of the schema"
+required:
+  - "title"
+  - "status"

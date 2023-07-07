@@ -1,0 +1,13 @@
+roadmap:roadmap:
+  - title: iolanta-adr × iolanta-roadmap
+  - title: Publish iolanta-adr somewhere
+    is-blocked-by:
+      - title: iolanta-adr MVP
+        is-blocked-by:
+          - title: Configure project for VSCode with jeeves-generate
+          - title: CLI
+            is-blocked-by:
+              - title: j adr create
+          - title: …
+          - title: …
+          - title: …
