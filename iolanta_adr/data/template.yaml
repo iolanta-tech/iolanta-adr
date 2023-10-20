@@ -1,0 +1,8 @@
+"@context":
+  adr: https://adr.iolanta.tech/
+
+$id: adr:ADR
+title: Architecture Decision Record
+iolanta:hasInstanceFacet:
+  $id: templates://adr/adr.html
+  iolanta:supports: https://mkdocs.org
