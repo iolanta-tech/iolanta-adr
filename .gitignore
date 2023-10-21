@@ -1,4 +1,5 @@
 .python-version
 .vscode
 node_modules/
-.idea
+.idea/
+__pycache__/
