@@ -1,41 +1,48 @@
 ---
-title: Document decisions in a software project
+title: Document Decisions in a Software Project
+status: accepted
 hide:
   - toc
 ---
 
+# :white_check_mark: Document Decisions in a Software Project
+
 ## Context
 
-Over a software project evolution, it often happens that developers have to make decisions how to proceed. For instance,
+During the evolution of a software project, developers frequently face decisions regarding the project's direction. For instance:
 
-* Which library to use?
-* Which class hierarchy to follow?
-* {TODO: add more examples}
+* Which library to utilize?
+* Which class hierarchy to adopt?
+* How to structure the database schema?
+* What coding standards or conventions to follow?
 
-Some of these decisions can be expensive to change later; it is customary to call them [architecture decisions]({TODO: Provide a link/source for this naming convention}).
+Some of these decisions can be costly to amend later; these are often referred to as _architecture decisions_.
 
-It is not customary to document such decisions in code: it is unlikely that someone will write a lengthy comment in a Python code file where they will explain why they've chosen to use … library instead of … {TODO: invent an example for these two libraries}. The library … has already been chosen, and … will not be remembered unless there is something wrong with ….
+> Software architecture is those decisions which are both important and hard to change.
+> <div markdown style="text-align:right">© Martin Fowler :simple-youtube: [Making Architecture Matter](https://www.youtube.com/watch?v=DngAZyWMGR0)</a>
 
-Sometimes, there *is* something wrong:
+Documenting such decisions within code isn't common practice: it's rare for someone to write an extensive comment in a Python file explaining why they opted for, say, the :simple-django: Django framework over :simple-flask: Flask for a web application project. The choice of Django has already been made, and Flask will likely be forgotten unless an issue arises with Django.
 
-* library appears to be buggy, lacking features, or unsupported;
-* application structure is revealed to be over-engineered or overly rigid;
-* {TODO: add more}
+Issues _do_ arise:
 
-At that point, it might be useful to revisit the decision we've made in the past, check the other alternatives which were back then dismissed, or recall reasoning and circumstances which lead to it.
+* A library proves to be buggy, lacks necessary features, or becomes unsupported;
+* The application structure turns out to be over-engineered or overly rigid;
+* Performance issues surface due to a chosen framework or technology stack.
+
+At such junctures, revisiting past decisions, reviewing previously dismissed alternatives, or recalling the rationale and circumstances leading to those decisions can be invaluable.
 
 ## Decision
 
-!!! success "Document decisions"
-    Log decisions as part of project documentation, each with its context, reasoning, reviewed alternatives, pro et contra.
+!!! success "Document Decisions"
+    Incorporate decision logs into the project documentation, articulating the context, rationale, reviewed alternatives, and pros and cons for each decision.
 
 ## Consequences
 
-!!! failure inline "Extra effort"
-    Developers have to spend extra time documenting each decision. No one *likes* writing documentation, really.
+!!! failure inline "Extra Effort"
+    Documenting each decision demands additional time from developers. Documentation writing isn't generally a favored task.
 
-!!! success inline "Writing helps thinking"
-    Writing down a decision helps make a better decision. Writing text helps formulate one's thoughts.
+!!! success inline "Enhanced Thought Process"
+    Articulating a decision on paper facilitates a more thorough thought process, aiding in making more informed decisions.
 
-!!! success inline "Knowledge transfer is easier"
-    A new team member can consult decision log to find out why this or that decision was made.
+!!! success inline "Smoother Knowledge Transfer"
+    New team members can refer to the decision log to understand the rationale behind certain decisions, accelerating their onboarding.

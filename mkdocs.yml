@@ -30,6 +30,9 @@ plugins:
 
 theme:
   name: material
+  extra:
+    status:
+      accepted: The ADR is accepted.
   # logo: assets/icon.png
 #  palette:
 #    primary: black
@@ -41,3 +44,6 @@ theme:
     # - navigation.tabs
     # - navigation.tabs.sticky
     - content.code.annotate
+
+extra_css:
+  - assets/status.css
