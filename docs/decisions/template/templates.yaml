@@ -1,0 +1,79 @@
+- $id: low-formality
+  rdfs:label: 🟢 Low
+- $id: high-formality
+  rdfs:label: 🔴 High
+- $id: medium-formality
+  rdfs:label: 🟡 Medium
+- $id: adr-templates
+  table:columns:
+    - table:self
+    - rdfs:label: Sections
+      table:columns:
+        - $id: adr-title
+          rdfs:label: Title
+        - status
+        - context
+        - decision
+        - consequences
+        - also
+    - formality
+    - notes
+  table:class:
+    $reverse:
+      rdf:type:
+        - rdfs:label: Michael Nygard
+          schema:url: https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions
+          adr-title: yes
+          status: yes
+          context: yes
+          decision: yes
+          consequences: yes
+          notes: Original template proposed by the author of the idea of ADR.
+          formality: low
+        - schema:url: https://personal.utdallas.edu/~chung/SA/zz-Impreso-architecture_decisions-tyree-05.pdf
+          rdfs:label: Jeff Tyree & Art Akerman
+          also: issue, group, assumptions, constraints, positions, argument, related decisions, related requirements, related artifacts, related principles, notes
+          status: yes
+          consequences: ✔️ (as "implications")
+          formality: high
+        - schema:url: https://docs.edgexfoundry.org/2.3/design/adr/template/
+          rdfs:label: EdgeX
+          context: yes
+          decision: yes
+          also: submitters, changelog, referenced use case(s), proposed design, considerations, other related ADRs, references
+          formality: high
+        - schema:url: https://github.com/joelparkerhenderson/architecture-decision-record/tree/main/locales/en/templates/decision-record-template-for-alexandrian-pattern
+          rdfs:label: Alexandrian Pattern
+          context: ✔️ (as "discussion")
+          decision: ✔️ (as "solution")
+          consequences: yes
+          also: prologue
+          formality: low
+        - schema:url: https://github.com/joelparkerhenderson/architecture-decision-record/tree/main/locales/en/templates/decision-record-template-for-business-case
+          rdfs:label: Business Case
+          title: yes
+          status: yes
+          decision: ✔️ (as "Recommendation")
+          also: Candidates to consider, Research and analysis of each candidate
+          formality: low
+        - schema:url: https://github.com/joelparkerhenderson/architecture-decision-record/tree/main/locales/en/templates/decision-record-template-of-the-madr-project
+          rdfs:label: MADR
+          title: yes
+          status: yes
+          decision: ✔️ (as "Decision Outcome")
+          also: Deciders, Date, Technical Story, Decision Drivers, Considered Options, Pros and Cons of the Options, Links
+          context: ✔️ (as "Context and Problem Statement")
+          formality: low
+        - schema:url: https://github.com/pmerson/ADR-template
+          rdfs:label: Paulo Merson
+          title: yes
+          decision: yes
+          status: yes
+          consequences: yes
+          also: Rationale
+          formality: low
+        - schema:url: https://medium.com/olzzio/y-statements-10eb07b5a177
+          rdfs:label: Y-statements
+          rdfs:comment: In the context of the Web shop service, facing the need to keep user session data consistent and current across shop instances, we decided for the Database Session State pattern and against Client Session State or Server Session State to achieve data consistency and cloud elasticity, accepting that a session database needs to be designed and implemented.
+          formality: high
+          notes: See hover message over the "Y-Statements" link.

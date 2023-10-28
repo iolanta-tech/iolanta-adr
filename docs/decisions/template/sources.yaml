@@ -1,0 +1,8 @@
+- $id: adr-templates-list
+  schema:url: https://github.com/joelparkerhenderson/architecture-decision-record
+  rdfs:label: Architecture Decision Record
+  schema:author:
+    $id: joel-parker-henderson
+    schema:url: https://github.com/joelparkerhenderson
+    rdfs:label: Joel P. Henderson
+

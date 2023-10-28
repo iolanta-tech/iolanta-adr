@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "formality": {
+      "@type": "@id",
+      "@context": {
+        "low": "low-formality",
+        "high": "high-formality",
+        "medium": "medium-formality"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+$id: nygard-pro-et-contra
+table:columns:
+  - $id: pro
+    rdfs:label: ➕ Pro
+  - $id: contra
+    rdfs:label: ➖ Contra
+table:rows:
+  - pro: The template exists for a long time, many people are aware of it
+    contra: The template might not be verbose enough for all uses, but we will live with that. It can be expanded using tables, diagrams and other visualizations.
