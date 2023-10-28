@@ -8,6 +8,7 @@ authors = ["Anatoly Scherbakov <altaisoft@gmail.com>"]
 python = ">=3.10,<3.11"
 mkdocs-iolanta = "^0.1.6"
 iolanta-tables = "^0.1.7"
+mkdocs-blogging-plugin = "^2.2.11"
 
 [tool.poetry.group.dev.dependencies]
 jeeves-yeti-pyproject = "^0.2.26"

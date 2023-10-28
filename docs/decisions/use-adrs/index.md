@@ -46,7 +46,7 @@ My thought would be that preference among RFC and ADR depends on the size of the
 
 ## Decision
 
-Small teams are a best practice anyway. {{ render("use-adr") }} seems to be the optimal choice for them.
+{{ render("use-adr") }} seems to be the optimal choice for small teams, who are our target audience.
 
 ## Consequences
 

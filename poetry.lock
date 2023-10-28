@@ -1241,6 +1241,23 @@ natsort = ">=8.1.0"
 wcmatch = ">=7"
 
 [[package]]
+name = "mkdocs-blogging-plugin"
+version = "2.2.11"
+description = "Mkdocs plugin that generates a blog index page sorted by creation date."
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "mkdocs-blogging-plugin-2.2.11.tar.gz", hash = "sha256:91b3ebc1ee3870958a0f9304d985f73a8e170a1f8d17948488415fa1a4257b2e"},
+    {file = "mkdocs_blogging_plugin-2.2.11-py3-none-any.whl", hash = "sha256:7e0f14e5a5d9d7fa106ee014b04a49e2fdb5ffe70a0026106dceb79930ba8ac2"},
+]
+
+[package.dependencies]
+babel = ">=2.7.0"
+GitPython = ">=3.1.18"
+jinja2 = ">=2"
+mkdocs = ">=1.0"
+
+[[package]]
 name = "mkdocs-iolanta"
 version = "0.1.7"
 description = "MkDocs plugin to integrate with Iolanta semantic web framework."
@@ -2232,4 +2249,4 @@ typing_extensions = ">=4.0,<5.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.11"
-content-hash = "cc417c41b1ca3e36fdf16356003709d28cd9b3c016cb55654072ba60e93937e1"
+content-hash = "0e53b5bbb87c9f22f6009be8980d3586d0b88c35054cce27f20f8af9df9661e9"

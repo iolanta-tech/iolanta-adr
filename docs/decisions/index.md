@@ -1,5 +1,6 @@
 ---
 title: Decisions
+exclude_from_blog: true
 ---
 
 ```mermaid
@@ -9,3 +10,5 @@ graph LR
     click document-decisions "document-decisions/"
     click use-adrs "use-adrs/"
 ```
+
+{{ blog_content }}

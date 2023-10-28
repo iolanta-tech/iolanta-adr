@@ -24,6 +24,11 @@ markdown_extensions:
 plugins:
   - awesome-pages
   - iolanta
+  - blogging:
+      dirs:
+        - decisions
+      theme:
+        name: card
 #  - mkdocstrings:
 #      handlers:
 #        python:
