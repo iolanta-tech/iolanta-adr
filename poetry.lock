@@ -834,6 +834,21 @@ iolanta = ">=1.0.12,<2.0.0"
 Jinja2 = ">=3.1.2,<4.0.0"
 
 [[package]]
+name = "iolanta-tables"
+version = "0.1.7"
+description = "Linked Data as tables"
+optional = false
+python-versions = ">=3.10,<4.0"
+files = [
+    {file = "iolanta_tables-0.1.7-py3-none-any.whl", hash = "sha256:43940134bcca71b52e0ad3d98302c7c3f035da6e3029359a20fc3295492e969d"},
+    {file = "iolanta_tables-0.1.7.tar.gz", hash = "sha256:1b4b65ca886e3a2d0f57e9eda9a0b6db5c8aa4c0768329c2d61ffa78f0a32199"},
+]
+
+[package.dependencies]
+dominate = ">=2.7.0,<3.0.0"
+iolanta = ">=1.0.11,<2.0.0"
+
+[[package]]
 name = "isodate"
 version = "0.6.1"
 description = "An ISO 8601 date/time/duration parser and formatter"
@@ -2217,4 +2232,4 @@ typing_extensions = ">=4.0,<5.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.11"
-content-hash = "0e8586ae72472f98706fb9216526fec06f28ef6449184ddd6fe08a88b0958ee4"
+content-hash = "cc417c41b1ca3e36fdf16356003709d28cd9b3c016cb55654072ba60e93937e1"
