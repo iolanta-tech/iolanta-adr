@@ -1,0 +1,29 @@
+$id: decision-document-formats
+table:columns:
+  - table:self
+  - $id: rdfs:comment
+    title: Name
+  - $id: supports-this-page
+    title: Can it express this page?
+  - $id: has-standardized-templates
+  - notes
+table:class:
+  $reverse:
+    rdf:type:
+      - $id: use-adr
+        rdfs:label: ADR
+        rdfs:comment: Architecture Decision Record
+        schema:url: https://adr.github.io/
+        supports-this-page: yes
+        has-standardized-templates: yes
+      - $id: use-rfc
+        rdfs:label: RFC
+        rdfs:comment: Request for Comments
+        supports-this-page: yes
+        has-standardized-templates: yes
+      - rdfs:label: DMN
+        schema:url: https://www.omg.org/dmn/
+        rdfs:comment: Decision Model and Notation
+        supports-this-page: no
+        notes: The tooling of Decision Tables might be helpful to us in the future as one of intellectual tools for decision making, but IMHO it is not general enough to document each possible decision over the course of evolution of a software project.
+        has-standardized-templates: yes

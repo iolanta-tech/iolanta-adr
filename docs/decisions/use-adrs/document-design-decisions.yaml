@@ -1,0 +1,7 @@
+$id: documenting-design-decisions-using-adrs-and-rfcs
+schema:url: https://brunoscheufler.com/blog/2020-07-04-documenting-design-decisions-using-rfcs-and-adrs
+rdfs:label: Documenting Design Decisions using RFCs and ADRs
+schema:author:
+  $id: bruno-schleufer
+  rdfs:label: Bruno Schleufer
+  schema:url: https://brunoscheufler.com/

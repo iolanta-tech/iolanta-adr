@@ -1,0 +1,9 @@
+$id: adr-pro-et-contra
+table:columns:
+  - $id: pro
+    rdfs:label: ➕ Pro
+  - $id: contra
+    rdfs:label: ➖ Contra
+table:rows:
+  - pro: We will use ADR convention familiar to many developers
+    contra: We will lose RFC-based large-community projects from our scope for now (and presently we are fine with that)

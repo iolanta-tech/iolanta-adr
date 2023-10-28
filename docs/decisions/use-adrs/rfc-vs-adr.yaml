@@ -1,0 +1,12 @@
+$id: rfc-vs-adr
+table:columns:
+  - table:self
+  - small-team
+  - large-team
+table:rows:
+  - $id: use-adr
+    small-team: yes
+    large-team: ❌ People might not get a chance to take part in the discussion; valuable input might be missed
+  - $id: use-rfc
+    small-team: ❌ Possibly an overkill; discussions are held in chat or on a meeting
+    large-team: ✔️ More formal discussion might benefit the project
